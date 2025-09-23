@@ -54,7 +54,7 @@ def main():
 
     logger_with_arbitrary_keyword_arg(datetime= datetime.now(), msg="Testing Arbitary Keyword Arguments", mytype="INFO", id=1, name="Test") # kwargs will take key-value pairs
 
-    sys.exit(0)
+    sys.exit(0) 
 
 # Call main
 main()
